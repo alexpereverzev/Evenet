@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        >
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            />
+
+        <com.pkmmte.view.CircularImageView
+            android:id="@+id/icon_list"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/ic_cinema"
+            app:border_color="@color/white"
+            app:border_width="2dp"
+            app:shadow="true" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/name_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test text"
+            android:textSize="20sp"
+            />
+
+        </LinearLayout>
+
+
+</RelativeLayout>

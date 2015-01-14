@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#71b09c</color>
+    <color name="color_time">#EFEFF4</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#ff2a39ff</color>
+    <color name="black">#000000</color>
+    <color name="view_black">#ff393939</color>
+    <color name="btn_pressed">#ff33b5e5</color>
+    <color name="btn_focused">#ff0099cc</color>
+    <color name="btn_normal">#00000000</color>
+    <color name="color_profile">#EEF6F7</color>
+    <color name="popup_bg_color">#EE666666</color>
+    <color name="separator_color">#BBBBBB</color>
+    <color name="popup_text_color">#FFFFFF</color>
+
+    <!-- Commons -->
+    <color name="background_app">#dedede</color>
+
+    <color name="background_list_back">#e3e3e3</color>
+    <color name="background_list_front">#ffffff</color>
+    <color name="text_title">#444444</color>
+    <color name="text_description">#7e7e7e</color>
+
+    <color name="line">#ffbcbcbc</color>
+
+    <color name="red">#D0594D</color>
+
+    <color name="text_new_tag">#ffffff</color>
+
+    <color name="white_black">#C8C8C8</color>
+    <color name="transperency">#00000000</color>
+
+    <color name="sign_button">#FAEFEE</color>
+
+
+    <!--custom colors-->
+    <color name="tab_unfocused_background">#14171D</color>
+    <color name="tab_divider_color">#536A64</color>
+    <color name="fragment_background">#C5CECC</color>
+    <color name="text_blue">#78B9C1</color>
+    <color name="pager_item_bckr">#81A19B</color>
+    <color name="icon_setting">#D7D7CC</color>
+    <color name="settings_header">#3D4359</color>
+    <color name="share">#2E3735</color>
+    <color name="history_shadow">#9E9E9E</color>
+    <color name="edit_text_bckgr">#A6ADAC</color>
+    <color name="button_blue">#ff1a44d3</color>
+    <color name="middle_blue">#ff334dff</color>
+    <color name="light_blue">#ff6a86d3</color>
+
+    <color name="yellow">#ffff00</color>
+    <color name="devine_profile">#D0D8E2</color>
+    <color name="grey_meetup_list">#D9E0E8</color>
+
+</resources>

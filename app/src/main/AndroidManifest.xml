@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="social.evenet" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="social.evenet.activity.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="social.evenet.activity.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.FeedActivity"
+            android:label="@string/title_activity_feed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.LaucherActivity"
+            android:label="@string/title_activity_laucher"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="social.evenet.activity.MenuNewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.Registration"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="social.evenet.activity.AddListActivity"
+            android:label="@string/title_activity_add_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.CommentActivity"
+            android:label="@string/title_activity_comment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.UsersInfo"
+            android:label="@string/title_activity_following"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.PlaceActivity"
+            android:label="@string/title_activity_place"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.MeetUpAddActivity"
+            android:label="@string/title_activity_meet_up_add"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Base" />
+        <activity
+            android:name="social.evenet.activity.SearchEventActivity"
+            android:label="@string/title_activity_search_event"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.InviteFriendsActivity"
+            android:label="@string/title_activity_invite_friends"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.MeetupDetailActivity"
+            android:label="@string/title_activity_meetup_detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="social.evenet.multi.CustomGalleryActivity" >
+            <intent-filter>
+                <action android:name="luminous.ACTION_PICK" />
+                <action android:name="luminous.ACTION_MULTIPLE_PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="social.evenet.activity.SearchMapsActivity"
+            android:label="@string/title_activity_search_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="social.evenet.activity.PlaceSearchActivity"
+            android:label="@string/title_activity_place_search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.SharedActivity"
+            android:label="@string/title_activity_shared"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.SharedUserChoose"
+            android:label="@string/title_activity_shared_with"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.PlaceMenuActivity"
+            android:label="@string/title_activity_place_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.BaseTwitterActivity"
+            android:label="@string/title_activity_base_twitter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.LoginTwitterActivity"
+            android:label="@string/title_activity_login_twitter"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.FacebookActivity"
+            android:label="@string/title_activity_facebook"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.MeetupSetActivity"
+            android:label="@string/title_activity_meetup_set"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app" />
+
+        <activity
+            android:name="social.evenet.activity.VKActivity"
+            android:label="@string/title_activity_vk"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.ApiCallActivity"
+            android:label="@string/title_activity_api_call" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.TestActivity"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.LaucherSingUpActivity"
+            android:label="@string/title_activity_laucher_sing_up"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.TwitterActivity"
+            android:label="@string/title_activity_twitter"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="t4jsample"
+                    android:scheme="oauth" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="social.evenet.activity.T4JTwitterLoginActivity"
+            android:label="@string/title_activity_t4_jtwitter_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="twitterlogin"
+                    android:scheme="x-oauthflow-twitter" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="social.evenet.activity.SignDetail"
+            android:label="@string/title_activity_sign_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.WhosGoingMeetupActivity"
+            android:label="@string/title_activity_whos_going_meetup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="social.evenet.activity.ListPagerActivity"
+            android:label="@string/title_activity_list_pager"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="social.evenet.activity.SearchPlaceActivity"
+            android:label="@string/title_activity_search_place" >
+        </activity>
+
+        <service android:name="com.parse.PushService" />
+
+        <activity
+            android:name="social.evenet.activity.CreateEvent"
+            android:label="@string/title_activity_create_event" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\src\main\assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\src\debug\assets" />
+    </dataSet>
+
+</merger>

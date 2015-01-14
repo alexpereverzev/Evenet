@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill_horizontal"
+    android:background="@color/red">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/disable_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_disable_actionbar"
+            android:layout_alignParentLeft="true"
+
+            />
+
+
+        <TextView
+            android:layout_weight="4"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Create Meetup"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/done_actionbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+           android:text="DONE"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentLeft="true"
+
+            />
+
+
+    </LinearLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            />
+
+
+
+
+
+
+
+</LinearLayout>

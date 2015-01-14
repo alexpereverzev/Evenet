@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@color/grey_meetup_list"
+    tools:context="social.evenet.activity.SearchPlaceActivity">
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/empty_search"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_faik_search"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Unfortunately, you have no places in your lists"
+            android:textColor="#676868"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Search"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/list_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

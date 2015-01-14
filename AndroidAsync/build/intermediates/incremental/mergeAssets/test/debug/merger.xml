@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\build\intermediates\bundles\debug\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\test\assets" >
+            <file
+                name="6691924d7d24237d3b3679310157d640"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\assets\6691924d7d24237d3b3679310157d640" />
+            <file
+                name="hello.txt"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\assets\hello.txt" />
+            <file
+                name="test.json"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\assets\test.json" />
+        </source>
+    </dataSet>
+
+</merger>

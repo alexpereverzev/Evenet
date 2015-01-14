@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/dialog_selector">
+    <TextView
+            android:id="@+id/title_access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Access"
+            android:layout_marginTop="5dp"
+         android:layout_marginBottom="10dp"
+            android:textColor="@color/blue"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+            android:id="@+id/disc_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_access"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="2dp"
+            android:textSize="14dp"
+            android:textColor="@color/blue"
+            android:text="If you want get pushnotification, you need agree and register your device"
+            />
+<LinearLayout
+    android:visibility="gone"
+    android:layout_below="@+id/disc_error"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="OK"
+        />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:text="Cancel"
+       />
+
+
+</LinearLayout>
+
+</RelativeLayout>

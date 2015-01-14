@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\build\intermediates\bundles\debug\res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res\drawable-ldpi\ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="keystore"
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res\raw\keystore.bks"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="C:\Users\Alexander\Documents\event\AndroidAsync\test\res\values\strings.xml"
+                qualifiers="" >
+                <string name="app_name" >AndroidAsyncTestTest
+                </string>
+            </file>
+        </source>
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\build\generated\res\rs\test\debug" />
+        <source path="C:\Users\Alexander\Documents\event\AndroidAsync\build\generated\res\generated\test\debug" />
+    </dataSet>
+
+</merger>
